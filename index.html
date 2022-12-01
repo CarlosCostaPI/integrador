@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+     integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" 
+     crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Belbin Test</title>
+</head>
+<body>
+    <div  style="background-image:linear-gradient(rgb(249, 249, 253),rgb(250, 248, 238)) ;" class="container">
+    <h1 style="margin: 10px; font-size: 2rem; font-weight: 700; text-align: left;">Teste de Belbin <br></h1>
+
+        <div class="rahnama">
+                <h3 style="text-align: center;">Instruções para responder ao teste de Belbin </h3>
+                <p style="text-align: justify;">
+                    Você deve responder às perguntas de cada seção depois de pensar o suficiente, mas lembre-se de
+                    não gastar muito tempo nisso. O questionário consiste em 7 seções e cada uma
+                    contém 8 frases ou explicações. Você deve responder, distribuindo 10 pontos 
+					entre as descrições que você acha que melhor descrevem seu comportamento
+                    tente dividir bem os pontos entre as frases e explicações para que obtenha uma
+					resultado mais preciso. As questões que descrevem suas características comportamentais 
+					devem ganhar mais pontos. Portanto, você tem no máximo 10 pontos e deve portanto distribui-los
+					dando no minimo 0 pontos e no maximo 10 pontos para uma frase/explicação, claro, lembrando
+					sempre que estes 10 pontos tem que ser distribuidos entre TODOS as questões, caso exceda esse
+					valor, não será permitido ir para a proxima seção, o mesmo ocorrá caso não distribua esses 10 pontos.
+					Em certos casos, É possível atribuir todos os 10 pontos em uma unica frase, 
+					mencionando este ponto como muito importante.
+                    É importante que o número de vezes que você atribua 10 pontos às frases não ultrapasse 3 vezes
+                    Caso contrário, seus dados não poderão ser analisados.</p>
+
+                    <label style="font-weight: bold; align: center; margin-left:10px; float:left;" for="check">Eu li e concordo com o guia.</label>
+                    <input style="min-height: 15px; min-width: 15px; cursor: pointer; margin-left:5px; margin-top:8px; float:left;" id="check" type="checkbox">
+
+        </div>
+        <div class="informations">
+            <section> 
+                <label class="infoLabels"  id="" for="userFirstName">Nome:   </label> 
+                <input autofocus style="text-align: left;" type="text" id="userFirstName" value="" placeholder="Nome"> 
+            </section> 
+            <section> 
+                <label class="infoLabels" id="" for="userLastName">Sobrenome:  </label> 
+                <input style="text-align: left;" type="text" id="userLastName" value="" placeholder="Sobrenome"> 
+            </section> 
+            <section> 
+                <label class="infoLabels" id="" for="emailInput">Email: </label> 
+                <input type="text" id="emailInput" value="" placeholder="example@gmail.com"> 
+            </section> 
+            
+        </div>
+    
+        
+        
+        <button  id="emailBtn"  disabled>Proximo passo</button>
+    </div>
+
+    
+    <script type="text/javascript" src="script2.js"></script>
+</body>
+</html>
